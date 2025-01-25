@@ -1,5 +1,3 @@
----
-
 # SAHI + YOLO Inference on Videos and Images
 
 This repository contains two separate scripts for running object detection using [SAHI](https://github.com/obss/sahi) and [Ultralytics YOLO](https://github.com/ultralytics/ultralytics):
@@ -9,7 +7,6 @@ This repository contains two separate scripts for running object detection using
 
 The project automatically performs **sliced inference** using SAHI, meaning large images (or frames) are broken into slices for more accurate detection. We specifically showcase how to detect persons and save frames containing persons during video inference, but the setup is general for any class label(s).
 
----
 
 ## Features
 
